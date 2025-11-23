@@ -30,5 +30,14 @@ The TV-AR model provides improved accuracy in simulating realistic driver behavi
 **File path**: `Long_term_simulation/` Simulates macroscopic traffic flow dynamics using ring-road scenarios over extended time periods (6000 timesteps), evaluating fundamental diagrams and emergent traffic phenomena at the system level.
 
 
+# How to run 
+
+We calibrate our data on Open ACC dataset (https://data.jrc.ec.europa.eu/dataset/9702c950-c80f-4d2f-982f-44d06ea0009f). Download the data on the website and run `Data_processing/`. The processed data is called "ar_idm_data". This data can be used for all rest codes and process.
+
+
+
+
+
+
 
 
