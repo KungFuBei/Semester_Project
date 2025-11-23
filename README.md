@@ -31,8 +31,10 @@ The TV-AR model provides improved accuracy in simulating realistic driver behavi
 
 
 # How to run 
+We calibrate our data on Open ACC dataset (https://data.jrc.ec.europa.eu/dataset/9702c950-c80f-4d2f-982f-44d06ea0009f). Download the data on the website and open `Data_processing/`, file_path is where the raw data stored. Run this code and then the processed data is called "ar_idm_data". This data can be used for all four models (Basic IDM, Hierarchical IDM, AR Model, TV-AR Model). After calibration and validation, the trace gotten from each model is needed to run Short-term Simulation and Long-term Simulation.
 
-We calibrate our data on Open ACC dataset (https://data.jrc.ec.europa.eu/dataset/9702c950-c80f-4d2f-982f-44d06ea0009f). Download the data on the website and run `Data_processing/`. The processed data is called "ar_idm_data". This data can be used for all rest codes and process.
+# Prer
+
 
 
 
